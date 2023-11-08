@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Invoice Generator App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The Invoice Generator App is a web application developed using Vue.js 3, allowing users to create customized invoices by adding products, variants, prices, and quantities. Users can also import and modify previous invoices effortlessly. The app automatically calculates the total price, adds VAT if desired, and displays the grand total.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Product Management:** Add, edit, or delete products and their variants.
+- **Invoice Modification:** Import and modify existing invoices.
+- **Automatic Price Calculation:** Calculate the total price based on product prices and quantities.
+- **VAT Calculation:** Optional VAT inclusion for the total price.
+- **Grand Total Display:** Clearly display the calculated grand total at the end of the invoice.
